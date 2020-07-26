@@ -4,7 +4,7 @@ type Element {
   _id: ID
   product: String!
   selector: String!
-  options: [String]!
+  options: String!
   icon: String!
   label: String!
   value: String!
@@ -22,7 +22,7 @@ type Mutation {
   addElement(
     product: String!
     selector: String!
-    options: [String]!
+    options: String!
     icon: String!
     label: String!
     value: String!

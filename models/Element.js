@@ -10,7 +10,7 @@ const ElementSchema = new mongoose.Schema({
     required: true
   },
   options: {
-    type: [String],
+    type: String,
     required: true
   },
   icon: {
