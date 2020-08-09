@@ -8,11 +8,11 @@
     </v-app-bar>
 
     <!-- App Content -->
-    <v-content>
+    <v-main>
       <v-container class="mt-3">
         <router-view />
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
